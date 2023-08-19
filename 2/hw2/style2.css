@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.img4{
+    width: 500px;
+    height: 400px;
+}
+p{
+    color: whitesmoke;
+}

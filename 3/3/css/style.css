@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: black;
+}
+hr{
+    height: 5px;
+    background-color: blue;
+}
+.df{
+    display: flex;
+    justify-content: space-around;
+}
+
+.post{
+    border: 2px solid tomato;
+    border-radius: 15px;
+    text-align: center;
+   margin: 20px;
+}
+
+h3{
+    color: aliceblue;
+}
+p{
+    color: aliceblue;
+    padding: 20px;
+}
+
+img{
+    width: 360px;
+    height: 300px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}

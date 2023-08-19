@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.v{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+h1{
+    color: aliceblue;
+}
+
+hr{
+    height: 5px;
+    width: 20%;
+    background-color: blue;
+}
+.df{
+    display: flex;
+    justify-content: space-around;
+}
+
+.post{
+    border: 2px solid tomato;
+    border-radius: 15px;
+    text-align: center;
+   margin: 20px;
+}
+
+h3{
+    color: aliceblue;
+}
+p{
+    color: aliceblue;
+    padding: 20px;
+}
+
+img{
+    width: 360px;
+    height: 300px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+    color: aliceblue;
+}
+li .line{
+    background-color: red;
+    height: 3px;
+    width: 0;
+    transition: 0.3s all linear;
+}
+
+li:hover .line{
+    width: 100%;
+}

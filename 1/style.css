@@ -1,0 +1,19 @@
+body {
+    background-color: blue;
+} 
+
+.a {
+    color: rgb(221, 27, 27);
+}
+
+.b {
+    color: rgb(5, 245, 5);
+}
+
+h1 {
+    color: aqua;
+}
+
+.text{
+    color: black;
+}    
